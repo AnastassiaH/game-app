@@ -39,3 +39,9 @@
   text-decoration: none;
   justify-content: center;
 }
+
+.notFoundPage {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,49 @@
+.score {
+  flex: 1;
+  padding: 166px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  width: 25%;
+}
+
+.scoreItem {
+  display: flex;
+  align-items: center;
+}
+
+.sumAmount {
+  flex-basis: 240px;
+  flex-shrink: 1;
+  height: 40px;
+  margin: 0 -17px;
+  background: no-repeat center url(../../../public/images/Rectangle\ 4.png);
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreItemActive .sumAmount {
+  background: no-repeat center url(../../../public/images/Rectangle-orange.png);
+  background-size: contain;
+}
+
+.scoreItemPassed {
+  opacity: 0.5;
+}
+
+.leftLine,
+.rightLine {
+  width: 17px;
+  height: 1px;
+  flex-grow: 1;
+  flex-shrink: 2;
+  background-color: var(--black-40);
+}
+
+.scoreItemActive .leftLine,
+.scoreItemActive .rightLine {
+  background-color: var(--orange-100);
+}

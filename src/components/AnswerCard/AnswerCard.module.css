@@ -1,0 +1,44 @@
+.answerCard {
+  width: 50%;
+  height: 72px;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.answerText {
+  height: 100%;
+  background-image: url(../../../public/images/Rectangle\ 4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+  display: flex;
+  gap: 8px;
+  justify-content: left;
+  align-items: center;
+  padding-left: 40px;
+  flex-shrink: 1;
+}
+
+.leftLine,
+.rightLine {
+  width: 25px;
+  height: 2px;
+  background-color: var(--black-40);
+  flex-shrink: 2;
+}
+
+.answerLetter {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--orange-100);
+}
+
+.answerValue {
+  font-size: 20px;
+  line-height: 24px;
+}

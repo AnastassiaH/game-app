@@ -15,7 +15,9 @@ export default function Home() {
       </div>
       <div className={styles.pageContent}>
         <h1 className={styles.heading}>Who wants to be a millionaire?</h1>
-        <Link href='/game' className={styles.startButton}>Start</Link>
+        <Link href="/game/question/1" className={styles.startButton}>
+          Start
+        </Link>
       </div>
     </div>
   );

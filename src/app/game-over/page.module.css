@@ -1,0 +1,41 @@
+.page {
+  min-height: 100svh;
+  font-family: var(--font-geist-sans);
+  background: linear-gradient(135deg, white 50%, #ffeedd 50%);
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.imageContainer,
+.pageContent {
+  flex-basis: calc((100% - 32px) / 2);
+}
+
+.heading {
+  margin-bottom: 64px;
+  font-size: 56px;
+  line-height: 65px;
+  font-weight: 600;
+  color: var(--black-100);
+}
+
+.startButton {
+  width: 296px;
+  height: 64px;
+  border-radius: 12px;
+  background-color: var(--orange-100);
+  border: none;
+  display: block;
+  font-size: 20px;
+  line-height: 23px;
+  color: white;
+  font-weight: 600px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}
